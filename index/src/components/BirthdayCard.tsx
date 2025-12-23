@@ -135,7 +135,7 @@ const BirthdayCard: React.FC = () => {
 
           {/* 메인 메시지 */}
           <div className={`message-container ${showMessage ? 'show' : ''}`}>
-            <h1 className="birthday-title">생신 축하드립니다!(2일 미리) </h1>
+            <h1 className="birthday-title">생신 축하드립니다! </h1>
             <h2 className="name-title">효림쌤</h2>
             <div className={`cake ${isCelebrating ? 'celebrating' : ''}`}>🎂</div>
             <p className="birthday-message">
